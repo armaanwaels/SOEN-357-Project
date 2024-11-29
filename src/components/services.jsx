@@ -11,7 +11,7 @@ export const Services = ({ addRide }) => {
     const [formData, setFormData] = useState({
         name: "",
         from: "",
-        to: "",
+        phoneNumber: "",
         seats: "",
     });
 
@@ -22,7 +22,7 @@ export const Services = ({ addRide }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         addRide(formData); // Send data to the parent (App.js)
-        setFormData({ name: "", from: "", to: "", seats: "" }); // Reset form fields
+        setFormData({ name: "", from: "", phoneNumber: "", seats: "" });
     };
 
     return (
@@ -35,15 +35,15 @@ export const Services = ({ addRide }) => {
                 maxWidth: 900,
                 margin: "0 auto",
                 color: "#ffffff",
-                marginTop: 10
+                marginTop: 10,
+                fontFamily:
+                    "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
             }}
         >
             {/* Section Title */}
             <Typography
-                variant="h5"
+                variant="h2"
                 sx={{
-                    fontWeight: "bold",
-                    fontSize: "2rem", // Larger font size for the title
                     marginBottom: 3,
                     textAlign: "center",
                 }}
@@ -58,6 +58,7 @@ export const Services = ({ addRide }) => {
                 sx={{
                     display: "flex",
                     flexDirection: "column",
+                    alignItems: "center", // Center align the inputs
                     gap: 2,
                 }}
             >
@@ -66,80 +67,72 @@ export const Services = ({ addRide }) => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    fullWidth
-                    size="small" // Smaller input fields
-                    InputLabelProps={{
-                        style: {
-                            color: "#ffffff", // White label text
-                            fontSize: "1.2rem", // Larger font size for labels
+                    sx={{
+                        width: "60%", // Reduce input width
+                        "& .MuiInputLabel-root": {
+                            fontSize: "1.5rem", // Larger label text
+                            color: "#ffffff",
+                        },
+                        "& .MuiInputBase-input": {
+                            fontSize: "1.5rem", // Larger input text
+                            color: "#ffffff",
                         },
                     }}
-                    InputProps={{
-                        style: {
-                            color: "#ffffff", // White input text
-                            fontSize: "1.2rem", // Larger font size for input text
-                        },
-                    }}
+                    size="small"
                 />
                 <TextField
-                    label="From"
+                    label="Departure City"
                     name="from"
                     value={formData.from}
                     onChange={handleChange}
-                    fullWidth
+                    sx={{
+                        width: "60%",
+                        "& .MuiInputLabel-root": {
+                            fontSize: "1.5rem",
+                            color: "#ffffff",
+                        },
+                        "& .MuiInputBase-input": {
+                            fontSize: "1.5rem",
+                            color: "#ffffff",
+                        },
+                    }}
                     size="small"
-                    InputLabelProps={{
-                        style: {
-                            color: "#ffffff",
-                            fontSize: "1.2rem",
-                        },
-                    }}
-                    InputProps={{
-                        style: {
-                            color: "#ffffff",
-                            fontSize: "1.2rem",
-                        },
-                    }}
                 />
                 <TextField
-                    label="To"
-                    name="to"
-                    value={formData.to}
+                    label="Phone Number"
+                    name="phoneNumber"
+                    value={formData.phoneNumber}
                     onChange={handleChange}
-                    fullWidth
+                    sx={{
+                        width: "60%",
+                        "& .MuiInputLabel-root": {
+                            fontSize: "1.5rem",
+                            color: "#ffffff",
+                        },
+                        "& .MuiInputBase-input": {
+                            fontSize: "1.5rem",
+                            color: "#ffffff",
+                        },
+                    }}
                     size="small"
-                    InputLabelProps={{
-                        style: {
-                            color: "#ffffff",
-                            fontSize: "1.2rem",
-                        },
-                    }}
-                    InputProps={{
-                        style: {
-                            color: "#ffffff",
-                            fontSize: "1.2rem",
-                        },
-                    }}
                 />
                 <TextField
                     label="Seats Available"
                     name="seats"
                     value={formData.seats}
                     onChange={handleChange}
-                    fullWidth
+                    sx={{
+                        width: "60%",
+                        "& .MuiInputLabel-root": {
+                            fontSize: "1.5rem",
+                            color: "#ffffff",
+                        },
+                        "& .MuiInputBase-input": {
+                            fontSize: "1.5rem",
+                            color: "#ffffff",
+                        },
+                    }}
                     size="small"
-                    InputLabelProps={{
-                        style: {
-                            color: "#ffffff",
-                            fontSize: "1.2rem",
-                        },
-                    }}
-                    InputProps={{
-                        style: {
-                            color: "#ffffff",
-                            fontSize: "1.2rem",
-                        },
-                    }}
                 />
                 <Button
                     type="submit"
@@ -148,10 +141,10 @@ export const Services = ({ addRide }) => {
                         backgroundColor: "#ffffff", // White button
                         color: "#6372ff", // Button text color
                         fontWeight: "bold",
-                        fontSize: "1.2rem", // Larger font size for button text
+                        fontSize: "1.5rem", // Larger button text
                         width: "fit-content", // Button takes only as much width as needed
                         alignSelf: "center", // Center the button
-                        padding: "0.5rem 2rem", // Adjust button padding
+                        padding: "0.8rem 2.5rem", // Adjust button padding
                         ":hover": {
                             backgroundColor: "#ffffffcc", // Lighter hover effect
                         },
@@ -163,5 +156,3 @@ export const Services = ({ addRide }) => {
         </Paper>
     );
 };
-
-export default Services;

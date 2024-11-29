@@ -99,7 +99,7 @@
     {
       "img": "img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Abdelhamid Saoud Messaoudi"
     },
     {
       "img": "img/testimonials/02.jpg",
@@ -130,22 +130,27 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Saoud Messaoudi",
+      "job": "Student"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
+      "name": "Liam Halpin",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
+      "name": "Armaan Waels",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
+      "name": "Steven Di Stefano",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Yassine Ouali",
       "job": "Project Manager"
     }
   ],
@@ -160,23 +165,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Find drivers",
+      "text": "Easily connect with student drivers heading your way to share rides and make commuting more convenient."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "We hear you",
+      "text": "Your feedback matters—our platform is designed to address your carpooling needs and preferences."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Create connections",
+      "text": "Carpooling brings students together, fostering friendships and building a supportive community."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Save time and money",
+      "text": "Reduce travel costs and time spent commuting by sharing rides and planning efficient routes."
     }
   ]
 }

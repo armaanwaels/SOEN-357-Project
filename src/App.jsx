@@ -35,19 +35,24 @@ const App = () => {
     };
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <Features data={landingPageData.Features} />
-      <Services
-          data={landingPageData.Services} />
-      <Gallery
-          data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+      <div>
+          <Navigation/>
+          <Header data={landingPageData.Header}/>
+          <About data={landingPageData.About}/>
+          <Features data={landingPageData.Features}/>
+          <Services
+              data={landingPageData.Services}
+              addRide={addRide}
+          />
+          <div className="col-md-10 col-md-offset-1 section-title">
+              <h2 style={{textAlign:"center", marginTop:"50px"}}>Available rides</h2>
+          </div>
+          <Gallery
+              data={landingPageData.Gallery}
+              rides={rides}
+          />
+          <Team data={landingPageData.Team}/>
+      </div>
   );
 };
 
