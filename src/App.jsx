@@ -5,9 +5,7 @@ import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -24,18 +22,14 @@ const App = () => {
   }, []);
 
     const [rides, setRides] = useState([]);
-    const [requests, setRequests] = useState([]);
 
     const addRide = (ride) => {
         setRides([...rides, ride]);
     };
 
-    const addRequest = (request) => {
-        setRequests([...requests, request]);
-    };
-
   return (
       <div>
+          {/*Where all components are displayed, order of components can be shown here as well. */}
           <Navigation/>
           <Header data={landingPageData.Header}/>
           <About data={landingPageData.About}/>

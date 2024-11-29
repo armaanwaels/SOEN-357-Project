@@ -1,5 +1,5 @@
 import React from "react";
-import { List, ListItem, ListItemText, Paper, Typography, Box } from "@mui/material";
+import { List, ListItem, ListItemText, Typography, Box } from "@mui/material";
 
 export const Gallery = ({ rides }) => {
     return (
@@ -9,7 +9,7 @@ export const Gallery = ({ rides }) => {
                 padding: 4,
                 margin: "0 auto",
                 marginTop: 4,
-                maxWidth: "1000px", // Minimum width of 1000px
+                maxWidth: "1000px",
             }}
             id="portfolio"
         >
@@ -61,5 +61,3 @@ export const Gallery = ({ rides }) => {
         </Box>
     );
 };
-
-export default Gallery;
