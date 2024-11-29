@@ -23,14 +23,27 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
+    const [rides, setRides] = useState([]);
+    const [requests, setRequests] = useState([]);
+
+    const addRide = (ride) => {
+        setRides([...rides, ride]);
+    };
+
+    const addRequest = (request) => {
+        setRequests([...requests, request]);
+    };
+
   return (
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      <Services
+          data={landingPageData.Services} />
+      <Gallery
+          data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />

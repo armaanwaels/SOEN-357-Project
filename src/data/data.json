@@ -4,18 +4,16 @@
     "paragraph": "Here to create a carpooling platform to help students overcome their daily commute challenges"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Student Pool is a student-focused carpooling platform designed to make commuting easier, affordable, and environmentally friendly. Our mission is to connect students traveling the same route, enabling them to share rides, save costs, and reduce their carbon footprint.\n\n",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Cost Savings",
+      "Time Efficiency",
+      "Environmental Impact"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Build Connections",
+      "Safety First",
+      "Flexible Options"
     ]
   },
   "Gallery": [
