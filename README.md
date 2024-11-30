@@ -47,5 +47,14 @@ npm start
 
 ## Student Pool
 
-Few screenshots to show how Student Pool is constructed
+Few screenshots to show how Student Pool is constructed.
+
+Issaa Falkattan created the original template that was used to build Student Pool on.
+
+
+Source: https://github.com/issaafalkattan/React-Landing-Page-Template
+
+
+
+
 
