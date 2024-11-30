@@ -54,6 +54,15 @@ Issaa Falkattan created the original template that was used to build Student Poo
 
 Source: https://github.com/issaafalkattan/React-Landing-Page-Template
 
+<img width="1223" alt="image" src="https://github.com/user-attachments/assets/37178488-ed9d-4dcf-a8f3-ff7aff59a01c">
+
+<img width="834" alt="image" src="https://github.com/user-attachments/assets/5ef6149a-af2c-474e-bd33-3937e302151a">
+
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/84bb23c4-44de-4cb3-8349-a67b23450735">
+
+
+
+
 
 
 
